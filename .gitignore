@@ -1,6 +1,10 @@
 *.html
+!memory.html
 *.js
 *.wasm
+
+# Vim Swap
+*.swp
 
 # Prerequisites
 *.d
