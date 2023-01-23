@@ -6,3 +6,6 @@ hello.html:
 
 memory.js:
 	emcc memory.c -s WASM=2 -o $@ -s EXPORTED_FUNCTIONS='["_addOne", "_free", "_malloc"]' -s EXPORTED_RUNTIME_METHODS='["cwrap", "getValue", "setValue"]'
+
+memory2.js:
+	emcc memory2.c -s WASM=2 -o $@ -s EXPORTED_FUNCTIONS='["_countOccurrences", "_free", "_malloc"]' -s EXPORTED_RUNTIME_METHODS='["cwrap"]'

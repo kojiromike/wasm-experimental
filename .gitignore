@@ -1,5 +1,6 @@
 *.html
 !memory.html
+!memory2.html
 *.js
 *.wasm
 
